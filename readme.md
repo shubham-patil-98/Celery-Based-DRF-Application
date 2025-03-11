@@ -4,6 +4,7 @@
 This is a Django-based backend application with the following features:
 - CRUD operations for Orders and Products using Django REST Framework.
 - Customer authentication and token-based login.
+- Signals when models are feched and saved using django signals
 - Celery integration for background tasks and periodic task scheduling.
 - Scheduled periodic tasks to update product data daily at 2:30 PM IST using `django-celery-beat`.
 
